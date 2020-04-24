@@ -1,0 +1,26 @@
+Antenna setup:-
+We use double cross antenna (with four dipole antennas mounted together, one at each cardinal direction and tipped at an angle) which is omnidirectional.
+Step 1: all dipoles are arranged. Each wire of 1/4th length of wavelength (here 137MHz) with a small bend at the end. Pair of wires are linked end-to-end to each of four dowels with an inch gap. All four dipoles arranged and made as strong and durable as possible.
+Step 2: Main structure is made. The two flat pieces are perpenticularly drilled to the long main pole. All four dipoles are added to this cross at 30 degrees angle.
+Step 3: Phasing is done and all four dipoles connected to a coax cable connected to receiver. At the end, a female SMA connectoris added.
+The antenna is done!
+
+SDR setup:-
+Step 1: output line connected to SDR and plugged into usb port of laptop.
+Step 2: SDRsharp software helps control the SDR and can be downloaded from http://airspy.com/download/ 
+
+Tracking satellite:-
+Step 1: download one of the best progams - Orbitron from http://www.stoff.pl/
+Step 2: We select a list of satellites in it and predict upon elevation angle (between 30 to 45 degrees)
+Step 3: We will now be ready to head outside.
+
+Receiving Signal:-
+Step 1: After antenna and SDR setup is done, we search for the expected frequesncy of that satellite and set SDRsharp to that.
+Step 2: SDR radio type changed to WFM (Wide band FM) to account for doppler shift and in recording settings, Baseband is unchecked and Audio is selected. 
+Step 3: We press the play button and record after playing a little with the gain by rotating/shifteing the antenna.
+
+Decoding Signal:-
+Step 1: The recorded audio is resampled to lower speed with a program Audactity (downloadable here - http://www.audacityteam.org/download/)
+Step 2: After resampling, we use program WXto IMG (downloadable here- http://www.wxtoimg.com/downloads/) to decode the recording.
+
+That's it, we get our final image!!
