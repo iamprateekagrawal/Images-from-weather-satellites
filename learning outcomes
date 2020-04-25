@@ -1,0 +1,11 @@
+After going through the projects, I got to learn about new technologies and mechanisms which I describe below:
+
+SDR(Software Defined Radio):
+1. It's basically a radio communication sysetem where components like filtes, amplifiers, modulators, etc. are implemented by means of software/digital domain.
+2. It consists of the receiver, the antenna and the computer running the software.
+3. We can use it to listen to aircrafts, broadcasting stations, services and many more; and find daily life applications in mobiles and TVs.
+
+Basics of Antenna working:
+1. In brief, em waves are produced upon oscillating charges of a dipole and it is received to an antenna which generally acts as a dipole.
+2. The broadcasting station emits the waves to their satellites which then transmits it to our antenna aligned towards that direction.
+3. There are many types of antennas like dipole and parabolic reflector.
